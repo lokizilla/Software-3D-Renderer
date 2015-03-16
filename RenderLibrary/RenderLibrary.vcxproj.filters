@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="[Camera]">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="[Rasteriser]">
+      <UniqueIdentifier>{3b9af601-23a5-4f10-ba0b-3226431d609d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[Geometry]">
+      <UniqueIdentifier>{a014b2b6-f22f-4bf9-b0b7-de9d90c686d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[Data]">
+      <UniqueIdentifier>{ccf0590e-0a6b-4606-999b-0016beb5b1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[Lighting]">
+      <UniqueIdentifier>{6ddc11ce-dbe1-44b1-9970-2fb6bc802acc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>[Camera]</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIScanline.cpp">
+      <Filter>[Rasteriser]</Filter>
+    </ClCompile>
+    <ClCompile Include="RasteriserGDI.cpp">
+      <Filter>[Rasteriser]</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>[Geometry]</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>[Geometry]</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>[Geometry]</Filter>
+    </ClCompile>
+    <ClCompile Include="MD2Loader.cpp">
+      <Filter>[Data]</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLight.cpp">
+      <Filter>[Lighting]</Filter>
+    </ClCompile>
+    <ClCompile Include="LightAmbient.cpp">
+      <Filter>[Lighting]</Filter>
+    </ClCompile>
+    <ClCompile Include="LightColour.cpp">
+      <Filter>[Lighting]</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDirectional.cpp">
+      <Filter>[Lighting]</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>[Lighting]</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>[Camera]</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIScanline.h">
+      <Filter>[Rasteriser]</Filter>
+    </ClInclude>
+    <ClInclude Include="RasteriserGDI.h">
+      <Filter>[Rasteriser]</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>[Geometry]</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>[Geometry]</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>[Geometry]</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2Loader.h">
+      <Filter>[Data]</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLight.h">
+      <Filter>[Lighting]</Filter>
+    </ClInclude>
+    <ClInclude Include="LightAmbient.h">
+      <Filter>[Lighting]</Filter>
+    </ClInclude>
+    <ClInclude Include="LightColour.h">
+      <Filter>[Lighting]</Filter>
+    </ClInclude>
+    <ClInclude Include="LightDirectional.h">
+      <Filter>[Lighting]</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>[Lighting]</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
